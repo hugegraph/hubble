@@ -1,6 +1,6 @@
 {
-  "name": "@baidu/hugegraph-analysis-react",
-  "version": "1.0.4",
+  "name": "hugegraph-analysis-react",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/bundle.js",
   "scripts": {
@@ -11,6 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "antd": "^5.11.3",
     "json-bigint": "^1.0.0",
