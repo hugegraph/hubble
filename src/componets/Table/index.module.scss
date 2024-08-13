@@ -1,0 +1,32 @@
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-weight: 400;
+
+    .table_header {
+        display: table-header-group;
+        color: #5C5F66;
+
+        .table_cell {
+            background: #f7f7f9;
+            &:not(last-child) {
+                border-right: 1px solid #fff;
+            }
+        }
+    }
+
+    .table_row {
+        display: table-row;
+        border-bottom: 1px solid #E8E9EB;
+        color: #151B26;
+    }
+
+    .table_cell {
+        display: table-cell;
+        height: 38px;
+        vertical-align: middle;
+        padding: 0 12px;
+    }
+}

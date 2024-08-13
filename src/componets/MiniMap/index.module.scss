@@ -1,0 +1,24 @@
+.mapbox {
+    position: absolute;
+    background-color: #fff;
+    top: 32px;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px -5px, rgba(0, 0, 0, 0.14) 2px 2px 2px 0px, rgba(0, 0, 0, 0.12) 2px 2px 2px 2px;
+
+    .map_header {
+        border-bottom: 1px solid #e4dfdf;
+        height: 31px;
+        padding: 0 8px;
+        color: #999;
+    }
+
+    .minimap {
+        top: 0;
+    }
+
+    .lock {
+        margin-left: 5px;
+        :hover {
+            color: #1677ff;
+        }
+    }
+}
