@@ -30,7 +30,7 @@ dist
 build
 
 # lock
-# package-lock.json
+package-lock.json
 
 
 # yarn-lock
